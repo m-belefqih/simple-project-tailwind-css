@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first project of tailwind CSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class="bg-slate-700 min-h-screen flex items-center justify-center">
+
+    <!-- the section is relative -->
+    <!-- z-10 : pour voir les <span> en arrière -->
+    <section class="w-3/5 flex flex-col relative z-10">
+
+        <span class="absolute rounded-full w-70 h-70 bg-cyan-400 blur-[100rem] right-0"></span>
+
+        <span class="absolute rounded-full w-90 h-90 bg-orange-400 blur-[300rem] bottom-0"></span>
+
+        <h1 class="text-gray-100 text-[30px] font-bold z-10">join more than 10,000 players now !</h1>
+
+        <!-- z-10 : pour voir les <span> en arrière -->
+        <div class="flex flex-row mt-10 z-10">
+            
+            <div class="p-5 basis-128 bg-gradient-to-tr from-cyan-400 to-teal-400 flex rounded-2xl">
+                
+                <img class="w-28" src="https://i.ibb.co/3T90FGT/image-removebg-preview.png" alt="">
+                
+                <div class=" flex flex-col place-content-around">
+                    
+                    <h1 class="text-2xl">Portal to the <span class="font-bold">FUTURE.</span></h1>
+                    
+                    <p class="text-sm/6 text-[16px]">Live the best experience with the new technologies, play to earn methods that we invented, <span class="font-bold">we will build the future</span></p>
+
+                    <a class="p-2 w-[75%] border font-semibold underline decoration-solid transition-colors duration-500 hover:bg-slate-900 hover:border-slate-900 hover:text-white" href="#">DICOVER HOW TO PLAY !</a>
+
+                </div>
+            </div>
+            
+            <div class="ml-3 basis-128 flex flex-col place-content-between">
+                
+                <button class="p-5 flex items-center bg-slate-800 rounded-2xl hover:bg-slate-900 transition-colors duration-500">
+                    
+                    <span class="bg-cyan-400 rounded-full"><i class="fa fa-gamepad px-3 py-3" aria-hidden="true"></i></span>
+
+                    <h1 class="ml-5 text-white font-bold text-xl">Play</h1>
+
+                </button>
+
+                <button class="p-5 flex items-center bg-slate-800 rounded-2xl hover:bg-slate-900 transition-colors duration-500">
+                    
+                    <span class="bg-cyan-400 rounded-full"><i class="fa fa-gamepad px-3 py-3" aria-hidden="true"></i></span>
+
+                    <h1 class="ml-5 text-white font-bold text-xl">Level up</h1>
+
+                </button>
+
+                <button class="p-5 flex items-center bg-slate-800 rounded-2xl hover:bg-slate-900 transition-colors duration-500">
+                    
+                    <span class="bg-cyan-400 rounded-full"><i class="fa fa-gamepad px-3 py-3" aria-hidden="true"></i></span>
+
+                    <h1 class="ml-5 text-white font-bold text-xl">Get rewarded</h1>
+
+                </button>
+    
+            </div>
+        
+        </div>
+ 
+    </section>
+    
+</body>
+</html>
