@@ -12,7 +12,7 @@ To set up this project on your local machine:
 1. Clone the repository using HTTPS:
 
 ```bash
-git clone https://github.com/m-belefqih/my-first-project-tailwind-css.git
+git clone <repository_url>
 ```
 
 2. Navigate to the project directory:
